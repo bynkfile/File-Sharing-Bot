@@ -88,13 +88,9 @@ async def start_command(client: Client, message: Message):
         reply_markup = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("❤️‍🔥Main Channel❤️‍🔥", url="https://t.me/tamil4katmos")
+                    InlineKeyboardButton("❤️‍🔥Main Channel❤️‍🔥", url="https://t.me/tamizhmasters_official")
                 ],
                 [
-                    InlineKeyboardButton("REQUEST😇", url="https://t.me/+BTloleyZM1IxMzhl")
-                ],
-                [
-                    InlineKeyboardButton("❤️SUPPORT", url="https://t.me/tamil4ksupport"),
                     InlineKeyboardButton("😊About Me", callback_data = "about")
                 ]
             ]
